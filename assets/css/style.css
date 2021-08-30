@@ -34,6 +34,7 @@ button{
     padding: 5px 18px ;
     color: white;
     border-radius: 20px;
+    font-weight: bold;
 }
 .button-2{
     border-radius: 20px;
@@ -151,6 +152,14 @@ h3, h4, h5{
     font-weight: bolder;
     font-family: 'Lato', sans-serif;
 }
+.space p{
+    position: relative;
+    left: 7px;
+}
+#free p{
+    position: relative;
+    left: 7px;
+}
 .section-3{
     padding: 15px 45px 30px;
     background-color: rgb(220, 230, 236);
@@ -187,5 +196,24 @@ h3, h4, h5{
     background-color: rgb(248, 192, 7);
     border: none;
     padding: 7px 10px;
+}
+.section-4-button{
+    background-color: transparent;
+    border: none;
+    color: rgb(36, 36, 61);
+    
+}
+.section-4{
+    padding: 30px 45px 30px;
 
+}
+.section-4-container{
+    line-height: 0.6em;
+    text-align: center;
+    padding: 20px;
+}
+.s4-image-container{
+    justify-content: space-around;
+    display: flex;
+    padding: 30px 30px;
 }
