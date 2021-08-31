@@ -35,6 +35,7 @@ button{
     color: white;
     border-radius: 20px;
     font-weight: bold;
+    border: none;
 }
 .button-2{
     border-radius: 20px;
@@ -62,7 +63,6 @@ button{
     padding: 5px 12px;
     margin: 5px;
     border-radius: 20px;
-
 }
 .start-trial{
     background-color: #04e24e;
@@ -111,7 +111,7 @@ h3, h4, h5{
     justify-content: space-between;
     text-align: left;
     font-size: 0.9em;
-    margin: 50px 15px
+    margin: 57px 15px
 }
 .section-2-box p{
     font-size: 12px;
@@ -154,7 +154,15 @@ h3, h4, h5{
 }
 .space p{
     position: relative;
-    left: 7px;
+    left: 4px;
+    bottom: 1px;
+}
+.space-img{
+    position: relative;
+    bottom: 16px;
+}
+#review{
+    margin-left: 7px;
 }
 #free p{
     position: relative;
@@ -201,10 +209,11 @@ h3, h4, h5{
     background-color: transparent;
     border: none;
     color: rgb(36, 36, 61);
-    
+        
 }
 .section-4{
     padding: 30px 45px 30px;
+    text-align: center;
 
 }
 .section-4-container{
@@ -213,7 +222,87 @@ h3, h4, h5{
     padding: 20px;
 }
 .s4-image-container{
-    justify-content: space-around;
+    justify-content: space-between;
     display: flex;
     padding: 30px 30px;
+}
+.big-flex{
+    display: flex;
+}
+.main-box{
+    display: flex;
+}
+.minor-box{
+    display: flex;
+}
+footer{
+    background-color: rgb(26, 26, 48);
+    color: white;
+    padding: 40px 45px;
+}
+footer p{
+    font-size: 0.8em;
+}
+.box{
+    padding-bottom: 20px;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    border-width: 0.6px;
+    padding: 0px 50px 0px 30px;
+    margin: 0px 30px;
+}
+.box-inner{
+    display: flex;
+    padding-right: 20px;
+}
+.box-flex{
+    display: flex;
+}
+.box-flex img{
+    padding-right: 10px;
+    position: relative;
+    top: 12px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    line-height: 1em;
+}
+#blue{
+    color: #0d9fff;
+}
+#half-box{
+    margin-right: 45px;
+}
+.footer-bottom{
+    justify-content: space-between;
+    display: flex;
+    padding: 0px 0px 20px 0px;
+    border-top: 1px solid grey;
+    margin-top: 70px;
+}
+
+.footer-bottom img{
+    position: relative;
+    top: 20px;
+    right: 20px;
+}
+.footer-bottom p{
+    font-size: 0.7em;
+}
+.footer-flex{
+    display: flex;
+    margin: 25px 0px 0px 25px;
+}
+.footer-flex img{
+    padding-left: 10px;
+}
+.footer-flex div{
+    line-height: 0.1em;
+}
+.footer-button{
+    background-color: #0d9fff;
+    padding: 7px 10px;
+    color: white;
+    border: none;
 }
