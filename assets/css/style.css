@@ -205,21 +205,27 @@ h3, h4, h5{
     border: none;
     padding: 7px 10px;
 }
-.section-4-button{
+.section-4-button{ 
+    text-align: center;
+    margin: 25px 0px 45px 0px;
+        
+}
+.section-4-button button{
     background-color: transparent;
     border: none;
     color: rgb(36, 36, 61);
-        
+    padding-top: 20px;
 }
 .section-4{
     padding: 30px 45px 30px;
-    text-align: center;
 
 }
 .section-4-container{
     line-height: 0.6em;
+    padding: 40px;
+}
+.section-4-container h3, p{
     text-align: center;
-    padding: 20px;
 }
 .s4-image-container{
     justify-content: space-between;
@@ -228,13 +234,71 @@ h3, h4, h5{
 }
 .big-flex{
     display: flex;
+    margin: 50px 0px;
 }
 .main-box{
     display: flex;
+    width: 50%;
+    box-shadow: 3px 2px 20px #7d88881c;
+    margin-right: 30px;
+}
+.mainn-box{
+    padding-top: 15px;
+    width: 40%;
+    box-shadow: 3px 2px 20px #7d88881c;
 }
 .minor-box{
     display: flex;
 }
+.main-box img{
+    margin-right: 10px;
+}
+.outer-box{
+    padding: 15px;
+}
+.inner-box{
+    display: flex;
+    padding-bottom: 10px;
+}
+.inner-box img{
+    position: relative;
+    top: 30px;
+    left: 2px;
+}
+.inner-boxx{
+    padding: 0px 15px;
+    background-color: rgb(216, 209, 209);
+    position: relative;
+    top: 40px;
+    height: 60px;
+}
+.inner-boxx img{
+    padding-right: 15px;
+    position: relative;
+    top: 10px;
+}
+.outer-boxx small{
+    padding: 0px 15px;
+
+}
+.patel{
+    padding-left: 10px;
+    line-height: 0px;
+    position: relative;
+    top: 20px;
+    right: 7px;
+}
+.maheta{
+    padding-left: 10px;
+    line-height: 0px;
+    position: relative;
+    left: 30px;
+    bottom: 45px;
+}
+.main-box-2{
+    padding: 10px 0px 0px 7px;
+}
+
 footer{
     background-color: rgb(26, 26, 48);
     color: white;
@@ -247,9 +311,9 @@ footer p{
     padding-bottom: 20px;
     border-left: 1px solid grey;
     border-right: 1px solid grey;
-    border-width: 0.6px;
-    padding: 0px 50px 0px 30px;
-    margin: 0px 30px;
+    border-width: 1px;
+    padding: 0px 60px 0px 40px;
+    margin: 0px 40px;
 }
 .box-inner{
     display: flex;
@@ -267,12 +331,14 @@ footer p{
     display: flex;
     justify-content: space-between;
     line-height: 1em;
+    width: 90%;
+    padding-left: 5px;
 }
 #blue{
     color: #0d9fff;
 }
 #half-box{
-    margin-right: 45px;
+    margin-right: 60px;
 }
 .footer-bottom{
     justify-content: space-between;
