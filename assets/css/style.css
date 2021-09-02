@@ -224,7 +224,10 @@ h3, h4, h5{
     line-height: 0.6em;
     padding: 40px;
 }
-.section-4-container h3, p{
+.section-4-container h3{
+    text-align: center;
+}
+.section-4-container p{
     text-align: center;
 }
 .s4-image-container{
