@@ -36,6 +36,7 @@ button{
     border-radius: 20px;
     font-weight: bold;
     border: none;
+    cursor: pointer;
 }
 .button-2{
     border-radius: 20px;
@@ -374,4 +375,6 @@ footer p{
     padding: 7px 10px;
     color: white;
     border: none;
+    cursor: pointer;
 }
+
