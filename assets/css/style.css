@@ -50,6 +50,9 @@ button{
     color: white;
     padding: 5px 12px;
 }
+.button-1:hover{
+    background-color: black;
+}
 .button-3{
     border-radius: 20px;
     background-color: #0d9fff;
@@ -121,10 +124,13 @@ h3, h4, h5{
     box-shadow: 0px 0px 5px #7d88881c;
     margin: auto 0px;
 }
+.section-2-each-box:hover{
+    box-shadow: 1px 2px 5px #332f2fb5;
+}
 .section-2-each-box p{
     font-weight: bolder;
 }
-/* 1px 2px 5px #332f2fb5; */
+
 .section-2-each-box-heading{
     padding: 0px 20px;
 }
