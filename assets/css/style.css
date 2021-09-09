@@ -252,10 +252,16 @@ h3, h4, h5{
     box-shadow: 3px 2px 20px #7d88881c;
     margin-right: 30px;
 }
+.main-box:hover{
+    box-shadow: 1px 2px 5px #332f2fb5;
+}
 .mainn-box{
     padding-top: 15px;
     width: 40%;
     box-shadow: 3px 2px 20px #7d88881c;
+}
+.mainn-box:hover{
+    box-shadow: 1px 2px 5px #332f2fb5;
 }
 .minor-box{
     display: flex;
@@ -272,8 +278,11 @@ h3, h4, h5{
 }
 .inner-box img{
     position: relative;
-    top: 30px;
+    top: 40px;
     left: 2px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
 }
 .inner-boxx{
     padding: 0px 15px;
@@ -285,9 +294,12 @@ h3, h4, h5{
 .inner-boxx img{
     padding-right: 15px;
     position: relative;
-    top: 10px;
+    top: 15px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
 }
-.outer-boxx small{
+.outer-boxx{
     padding: 0px 15px;
 
 }
@@ -303,7 +315,7 @@ h3, h4, h5{
     line-height: 0px;
     position: relative;
     left: 30px;
-    bottom: 45px;
+    bottom: 37px;
 }
 .main-box-2{
     padding: 10px 0px 0px 7px;
